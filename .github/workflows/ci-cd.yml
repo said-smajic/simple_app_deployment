@@ -18,4 +18,5 @@ jobs:
           cd Application/
           pwd
           docker build -t saidsmajicwork/simple-web-app:latest .
+          docker push saidsmajicwork/simple-web-app:latest
           
