@@ -15,6 +15,7 @@ jobs:
 
       - name: Build the Docker image
         run: |          
+          cd Application/
           pwd
           docker build -t saidsmajicwork/simple-web-app:latest 
           
