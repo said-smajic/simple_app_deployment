@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Welcome to our simple Flask Web Application!"
+    return "Welcome to our simple Flask Web Application! This is just a test!"
 
 @app.route('/time')
 def show_time():
