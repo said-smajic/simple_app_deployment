@@ -17,5 +17,5 @@ jobs:
         run: |          
           cd Application/
           pwd
-          docker build -t saidsmajicwork/simple-web-app:latest 
+          docker build -t saidsmajicwork/simple-web-app:latest .
           
