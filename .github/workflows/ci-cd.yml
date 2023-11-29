@@ -15,4 +15,4 @@ jobs:
 
     - name: Build the Docker image
       run: |
-        docker build -t saidsmajicwork/simpleappdeployment:latest .
+        docker build -t saidsmajicwork/simple-web-app:latest .
